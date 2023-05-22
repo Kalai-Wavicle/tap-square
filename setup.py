@@ -11,7 +11,7 @@ setup(
     py_modules=["tap-square"],
     install_requires=[
         "singer-python==5.9.0",
-        "requests==2.20.0", 
+        "requests==2.31.0", 
         "genson==1.1.0", 'pandas'
     ],
     entry_points="""
